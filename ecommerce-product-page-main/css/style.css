@@ -7,11 +7,11 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: none;
   text-decoration: none;
   text-transform: capitalize;
   transition: 0.2s linear;
+  font-family: static(KumbhSans-Bold);
+  font-size: 16px;
 }
 
 section{
@@ -29,6 +29,16 @@ section{
     font-size: 1.7rem;
 }
 
+.navbar{
+    margin-right: 2rem;
+}
+.p{
+    position: absolute;
+}
+
+.attribution{
+    margin-bottom: 2rem;
+}
 .btn:hover{
     background: var(--pink);
 }
@@ -53,7 +63,7 @@ header{
 }
 
 header .logo{
-    font-size: 3rem;
+    font-size: 5rem;
     color: #333;
     font-weight: bolder;
 }
@@ -127,6 +137,14 @@ header .fa-bars{
     padding: 1rem 0;
     line-height: 1.5;
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 
 
 
