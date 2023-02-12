@@ -18,10 +18,30 @@
 
     <!-- <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" /> -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <link rel="stylesheet" href="css/style.css" />
-
-    <title>Frontend Mentor | E-commerce product page</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              orange: "#ff7d1a",
+              paleorange: "#ffede0",
+              verydarkblue: "#1d2025",
+              darkgrayblue: "#68707D",
+              lightgrayblue: "#f7f8fd",
+              white: "#ffffff",
+              black: "#000000",
+            },
+            fontFamily: {
+              kumbh: ["Kumbh Sans", "sans-serif"],
+            },
+            backgroundImage: {
+              "hero-pattern": "url(images/bg-main-desktop.png)",
+              "mobile-pattern": "url(images/bg-main-mobile.png)",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
     <!-- header section starts-->
